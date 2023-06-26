@@ -1,0 +1,37 @@
+Searching a tree is more complicated than searching a linearly organized data structure such as an array or linked list. While trees are technically a type of graph, we'll start with trees because most people find trees simpler to begin with because they're more familiar. 
+
+TYPES OF TREES
+
+    A tree is a data structure composed of nodes
+        - each tree has a root node
+        - the root node has zero or more child nodes 
+        - each child node has zero or more child nodes and so on 
+
+    Binary Tree
+        - a binary tree is a tree in which each node has at most two children.
+        - a node is called a "leaf" node if it has no children
+
+    Binary Tree vs Binary Search Tree
+     - a binary search tree is a binary tree in which every node fits a specific odering property. 
+
+    This is a binary search tree
+                8
+        4               10
+    2       6               20
+
+    This is not a binary search tree, because 12 is to the left of 8
+                8 
+        4               10        
+    2       12              20
+
+        TYPES OF BINARY TREES
+             - Complete Binary Trees: binary trees in which every level of the tree is fully filled (two child nodes), except perhaps the last level. To the extent that the last level is filled, it is filled left to right
+
+             - Full Binary Trees: binary tree is whcih every node has either zero or two children (no nodes have only one child)
+
+             - Perfect Binary Trees: both full and complete. All leaf nodes will be at the same level, and this level has the maximum number of nodes. EXAMPLE:
+                        10
+                5               20
+            9       18      3       7
+
+
